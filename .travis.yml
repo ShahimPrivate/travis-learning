@@ -2,9 +2,22 @@ language: java
 jdk: openjdk11
 before_install:
    - pwd
+   - ls -la
+   - echo root dir
+   - ls -la /
   
 before_script:
    - pwd
+   - ls -la
+   - echo root dir
+   - ls -la /
    
 script:
    - pwd
+   - ls -la
+   - echo root dir
+   - ls -la /
+   - env
+   - echo ==============================
+   - printenv
+   
